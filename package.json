@@ -1,0 +1,22 @@
+{
+  "name": "zazu-ipsum",
+  "version": "1.0.0",
+  "bin": {
+    "ipsum": "app/index.js"
+  },
+  "description": "Dummy text and html generator",
+  "main": "app/index.js",
+  "scripts": {
+    "rebuild": "electron-rebuild --version 1.3.13"
+  },
+  "keywords": [],
+  "author": "Sascha Goldhofer <noreply@saschagoldhofer.de> (https://github.com/sagold/)",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "electron-rebuild": "^1.5.5",
+    "eslint": "^3.10.2"
+  }
+}

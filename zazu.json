@@ -1,0 +1,29 @@
+{
+  "name": "zazu-ipsum",
+  "version": "1.0.0",
+  "description": "",
+  "icon": "./pixel.gif",
+  "blocks": {
+    "input": [
+        {
+          "title": "default lorem ipsum",
+          "id": "input",
+          "type": "PrefixScript",
+          "space": true,
+          "args": "Optional",
+          "prefix": "li",
+          "script": "zazu/ipsum.js",
+          "connections": [
+            "copy"
+          ]
+        }
+    ],
+    "output": [
+      {
+        "id": "copy",
+        "type": "CopyToClipboard",
+        "text": "{value}"
+      }
+    ]
+  }
+}
